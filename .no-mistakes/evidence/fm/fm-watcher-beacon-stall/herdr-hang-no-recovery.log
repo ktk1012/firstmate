@@ -1,0 +1,16 @@
+[target] after 15s with every pane read hung (FM_HERDR_CLI_TIMEOUT=2, FM_POLL=1): watcher alive=yes max_beacon_age=2s
+[target] watcher stdout (empty = no wake surfaced):
+/tmp/fm-manual/herdr-hang.sh: 줄 50: /private/var/folders/wn/bv5v082527vbt30jh9bbxrm80000gn/T/fm-herdr-hang-target.ci1AEz/hang/state/.wake-queue: No such file or directory
+[target] wake queue entries: 0
+[target] recovery/teardown markers: none
+[target] herdr pane-read calls (epoch, args, parent process):
+    t+1s  pane read w1:p1 --source recent --lines 200 --sess  parent=gtimeout 2 env HERDR_SESSION=lab herdr pane read w1:p1 --sou
+    t+4s  pane read w1:p1 --source recent --lines 200 --sess  parent=gtimeout 2 env HERDR_SESSION=lab herdr pane read w1:p1 --sou
+    t+8s  pane read w1:p1 --source recent --lines 200 --sess  parent=gtimeout 2 env HERDR_SESSION=lab herdr pane read w1:p1 --sou
+    t+12s  pane read w1:p1 --source recent --lines 200 --sess  parent=gtimeout 2 env HERDR_SESSION=lab herdr pane read w1:p1 --sou
+    t+15s  pane read w1:p1 --source recent --lines 200 --sess  parent=gtimeout 2 env HERDR_SESSION=lab herdr pane read w1:p1 --sou
+    t+19s  pane read w1:p1 --source recent --lines 200 --sess  parent=gtimeout 2 env HERDR_SESSION=lab herdr pane read w1:p1 --sou
+[target] pane-read count: 6  wrapped-by-timeout count: 6
+[target] triage log:
+[target] --- non-watcher consumer (fm_backend_capture sourced directly, no watcher bound) ---
+[target] direct consumer exit=1 (124 = still hung at the 4s outer bound, i.e. unbounded)

@@ -1,0 +1,13 @@
+### target run 1
+not ok - cleanup lock bound 08 gave up before the marker lock freed
+### base run 1
+ok - the cleanup marker-lock bound is decimal and zero falls back to the default
+### target run 2
+not ok - TERM did not stop a watcher with cleanup lock bound 00
+### base run 2
+not ok - cleanup lock bound 08 gave up before the marker lock freed
+### target run 3
+ok - the cleanup marker-lock bound is decimal and zero falls back to the default
+### base run 3
+ok - the cleanup marker-lock bound is decimal and zero falls back to the default
+### target run 4

@@ -1,0 +1,19 @@
+[lab] real herdr: herdr 0.9.0; session=fm-lab-wbeacon-16452
+[lab] real pane created: fm-lab-wbeacon-16452:w1:p2
+[lab] after 8s: watcher alive=yes max_beacon_age=1s
+[lab] pane-hash file from a successful real capture: 1
+[lab] real herdr calls made by the watcher (first 8):
+    t+1s  pane get w1:p2 --session fm-lab-wbeacon-16452  parent=bash /Users/taekyeom.kim/.no-mistakes/wo
+    t+1s  status --json --session fm-lab-wbeacon-16452  parent=gtimeout 30 env HERDR_SESSION=fm-lab-wbe
+    t+1s  pane read w1:p2 --source recent --lines 200 --session fm-lab-w  parent=gtimeout 30 env HERDR_SESSION=fm-lab-wbe
+    t+1s  status --json --session fm-lab-wbeacon-16452  parent=gtimeout 30 env HERDR_SESSION=fm-lab-wbe
+    t+1s  agent get w1:p2 --session fm-lab-wbeacon-16452  parent=gtimeout 30 env HERDR_SESSION=fm-lab-wbe
+    t+1s  status --json  parent=bash /Users/taekyeom.kim/.no-mistakes/wo
+    t+1s  api schema --json  parent=bash /Users/taekyeom.kim/.no-mistakes/wo
+    t+1s  session list --json  parent=gtimeout 30 env HERDR_SESSION=fm-lab-wbe
+[lab] pane-read calls: 7  wrapped-by-timeout: 7
+[lab] appended 'resolved [key=default]' then 'blocked:' at t+10s
+[lab] watcher exit rc=0 after 3s (0 = exited on a wake)
+[lab] watcher stdout:
+    signal: /private/var/folders/wn/bv5v082527vbt30jh9bbxrm80000gn/T/fm-herdr-lab-live.4iKoch/lab/state/wbeacon1.status
+[lab] drained payload contains blocked line: 2

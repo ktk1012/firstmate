@@ -1,0 +1,41 @@
+[target] watcher alive after 12s: no
+[target] watcher stdout: stale: lab:w1:p1
+[target] watcher stderr tail: 
+[target] herdr call log (epoch offset, args, parent):
+    t+1s  status --json --session lab  parent=gtimeout 2 env HERDR_SESSION=lab herdr status --json --sessi
+    t+1s  pane get w1:p1 --session lab  parent=bash /Users/taekyeom.kim/.no-mistakes/worktrees/3c3c5ebee0ba
+    t+1s  server --session lab  parent=bash /Users/taekyeom.kim/.no-mistakes/worktrees/3c3c5ebee0ba
+    t+1s  status --json --session lab  parent=gtimeout 2 env HERDR_SESSION=lab herdr status --json --sessi
+    t+1s  pane read w1:p1 --source recent --lines 200 --se  parent=gtimeout 2 env HERDR_SESSION=lab herdr pane read w1:p1 --sou
+    t+1s  SERVER KILLED after 0s  
+    t+1s  status --json --session lab  parent=gtimeout 2 env HERDR_SESSION=lab herdr status --json --sessi
+    t+1s  agent get w1:p1 --session lab  parent=gtimeout 2 env HERDR_SESSION=lab herdr agent get w1:p1 --ses
+    t+1s  status --json  parent=bash /Users/taekyeom.kim/.no-mistakes/worktrees/3c3c5ebee0ba
+    t+1s  api schema --json  parent=bash /Users/taekyeom.kim/.no-mistakes/worktrees/3c3c5ebee0ba
+    t+2s  status --json --session lab  parent=gtimeout 2 env HERDR_SESSION=lab herdr status --json --sessi
+    t+2s  pane read w1:p1 --source recent --lines 200 --se  parent=gtimeout 2 env HERDR_SESSION=lab herdr pane read w1:p1 --sou
+[target] server lifecycle lines:
+    1791636792	SERVER KILLED after 0s
+[target] status reads wrapped by timeout: 7 of 8
+[target] server launch wrapped by timeout: 0 of 1
+
+[base] watcher alive after 12s: no
+[base] watcher stdout: stale: lab:w1:p1
+[base] watcher stderr tail: 
+[base] herdr call log (epoch offset, args, parent):
+    t+1s  pane get w1:p1 --session lab  parent=bash /tmp/fm-base.EFP22f/bin/fm-fleet-snapshot.sh --secondma
+    t+1s  status --json --session lab  parent=bash /tmp/fm-base.EFP22f/bin/fm-watch.sh
+    t+1s  server --session lab  parent=bash /tmp/fm-base.EFP22f/bin/fm-watch.sh
+    t+1s  status --json --session lab  parent=bash /tmp/fm-base.EFP22f/bin/fm-watch.sh
+    t+2s  status --json --session lab  parent=bash /tmp/fm-base.EFP22f/bin/fm-watch.sh
+    t+2s  pane read w1:p1 --source recent --lines 200 --se  parent=bash /tmp/fm-base.EFP22f/bin/fm-watch.sh
+    t+2s  SERVER KILLED after 1s  
+    t+2s  status --json --session lab  parent=bash /tmp/fm-base.EFP22f/bin/fm-watch.sh
+    t+2s  agent get w1:p1 --session lab  parent=bash /tmp/fm-base.EFP22f/bin/fm-watch.sh
+    t+2s  status --json  parent=bash /tmp/fm-base.EFP22f/bin/fm-watch.sh
+    t+2s  api schema --json  parent=bash /tmp/fm-base.EFP22f/bin/fm-watch.sh
+    t+3s  status --json --session lab  parent=bash /tmp/fm-base.EFP22f/bin/fm-watch.sh
+[base] server lifecycle lines:
+    1791636805	SERVER KILLED after 1s
+[base] status reads wrapped by timeout: 0 of 9
+[base] server launch wrapped by timeout: 0 of 1

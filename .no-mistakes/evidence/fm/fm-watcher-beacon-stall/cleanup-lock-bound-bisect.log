@@ -1,0 +1,19 @@
+fb75c1f run1: ok - the cleanup marker-lock bound is decimal and zero falls back to the default
+fb75c1f run2: ok - the cleanup marker-lock bound is decimal and zero falls back to the default
+fb75c1f run3: ok - the cleanup marker-lock bound is decimal and zero falls back to the default
+b8ac8f3 run1: ok - the cleanup marker-lock bound is decimal and zero falls back to the default
+b8ac8f3 run2: not ok - cleanup lock bound 08 gave up before the marker lock freed
+b8ac8f3 run3: ok - the cleanup marker-lock bound is decimal and zero falls back to the default
+197178d run1: ok - the cleanup marker-lock bound is decimal and zero falls back to the default
+197178d run2: not ok - cleanup lock bound 08 gave up before the marker lock freed
+197178d run3: ok - the cleanup marker-lock bound is decimal and zero falls back to the default
+473833a run1: ok - the cleanup marker-lock bound is decimal and zero falls back to the default
+473833a run2: not ok - cleanup lock bound 08 gave up before the marker lock freed
+473833a run3: not ok - cleanup lock bound 08 gave up before the marker lock freed
+65678a6 run1: ok - the cleanup marker-lock bound is decimal and zero falls back to the default
+65678a6 run2: not ok - TERM did not stop a watcher with cleanup lock bound 00
+65678a6 run3: not ok - cleanup lock bound 08 gave up before the marker lock freed
+a02bf99 run1: ok - the cleanup marker-lock bound is decimal and zero falls back to the default
+a02bf99 run2: not ok - cleanup lock bound 08 gave up before the marker lock freed
+a02bf99 run3: not ok - cleanup lock bound 08 gave up before the marker lock freed
+DONE

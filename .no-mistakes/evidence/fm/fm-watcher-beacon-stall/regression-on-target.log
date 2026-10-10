@@ -1,0 +1,7 @@
+### target commit a02bf99: test_herdr_cli_timeout_surfaces_blocked_signal
+ok - a bounded herdr pane read cannot mask a later blocked signal
+exit=0
+### target commit a02bf99: test_beacon_stays_fresh_across_recorded_windows
+ok - disposable watcher refuses inherited state outside its marked lab
+ok - watcher beacon stays fresh while scanning slow recorded windows and skips gone panes
+exit=0

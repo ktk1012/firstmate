@@ -1,0 +1,9 @@
+### base commit fb75c1f: test_herdr_cli_timeout_surfaces_blocked_signal
+wait_for_exit: owned pid 30847 exceeded 100 polls; sending TERM
+30847 30660 S    bash /tmp/fm-base.EFP22f/bin/fm-watch.sh
+not ok - watcher stayed stuck in the herdr cycle (rc=124): 
+exit=1
+### base commit fb75c1f: test_beacon_stays_fresh_across_recorded_windows
+ok - disposable watcher refuses inherited state outside its marked lab
+not ok - beacon aged 4s while recorded windows were still being scanned: 
+exit=1

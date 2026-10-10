@@ -1,0 +1,10 @@
+### target run 1
+ok - the cleanup marker-lock bound is decimal and zero falls back to the default
+exit=0
+### target run 2
+watcher: recovery state could not be persisted; retaining stale lock evidence
+not ok - cleanup lock bound 08 gave up before the marker lock freed
+exit=1
+### base run
+ok - the cleanup marker-lock bound is decimal and zero falls back to the default
+exit=0
